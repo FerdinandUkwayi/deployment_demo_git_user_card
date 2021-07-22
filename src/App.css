@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+body {
+  padding: 10px
+}
+.header{
+    padding: .8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.github-profile{
+    margin: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img {
+    width: 75px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.info {
+    display: inline-block;
+    margin-left: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.name {
+    font-size: 1.25rem;
+    font-weight: bold
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    border: thin solid #888;
+    margin-bottom: 2rem;
 }
